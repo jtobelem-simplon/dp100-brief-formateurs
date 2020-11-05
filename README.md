@@ -4,7 +4,7 @@
 
 Superviser la gestion des coûts de sa promotion dans le cadre de la préparation à la dp100.
 
-La documentation pour ce projet ce trouve [ici](https://github.com/jtobelem-simplon/dp100-brief-init/blob/master/doc/dp100.pdf?raw=true).
+La documentation pour ce projet se trouve [ici](https://github.com/jtobelem-simplon/dp100-brief-init/blob/master/doc/dp100.pdf?raw=true).
 
 
 ## Configuration des utilisateurs
