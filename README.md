@@ -16,7 +16,7 @@ La documentation pour ce projet se trouve [ici](https://github.com/jtobelem-simp
 ## Configuration des ressources
 - un groupe de ressource pour toute la promo par projet (par exemple prepadp100) afin de supprimer le groupe après passage de la certif
 - un workspace pour la promo
-- envoyer une demande (par mail + auto) au support pour augmenter le quota par défaut de 10 coeurs
+- envoyer une [demande](https://docs.microsoft.com/fr-fr/azure/azure-portal/supportability/regional-quota-requests) (par mail + auto) au support pour augmenter le quota par défaut de 10 coeurs
 - une instance de clacul de type ds11-v2 par personne
 - un cluster de calcul (min = 0, max = 4) pour toute la promo
 
