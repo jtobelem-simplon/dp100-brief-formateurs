@@ -53,6 +53,22 @@ for ws_name in Workspace.list(subscription_id, resource_group=resource_group):
 - télécharger au format csv pour identifier les ressources les plus utilisées
 ![activity](img/activity.png)
 
+
+## Gestion des policies
+
+[Azure Policy](https://docs.microsoft.com/fr-fr/azure/governance/policy/overview#azure-policy-objects) aide à appliquer les normes organisationnelles et à évaluer la conformité à l’échelle. Avec son tableau de bord de conformité, il fournit une vue agrégée permettant d’évaluer l’état général de l’environnement, avec la possibilité d’explorer au niveau de chaque ressource et stratégie. Il vous aide également à mettre vos ressources en conformité par le biais de la correction en bloc pour les ressources existantes et de la correction automatique pour les nouvelles ressources. 
+
+Dans Azure Policy, nous proposons plusieurs stratégies intégrées qui sont disponibles par défaut. Par exemple : 
+ 
+- Références SKU de compte de stockage autorisées (Refuser) : Détermine si un compte de stockage en cours de déploiement se trouve dans un ensemble de tailles de référence SKU. Son effet consiste à refuser tous les comptes de stockage dont la taille ne fait pas partie de l’ensemble de tailles de référence SKU définies. 
+- Type de ressource autorisé (Refuser) : Définit les types de ressources que vous pouvez déployer. Son effet consiste à refuser toutes les ressources qui ne font pas partie de cette liste définie. 
+- Emplacements autorisés (Refuser) : Restreint les emplacements disponibles pour les nouvelles ressources. Son effet permet d’appliquer vos exigences de conformité géographique. 
+- Références SKU de machine virtuelle autorisées (Refuser) : Spécifie un ensemble de références SKU de machine virtuelle que vous pouvez déployer. 
+- Ajouter une étiquette aux ressources (Modifier) : Applique une balise requise et sa valeur par défaut si elle n’est pas spécifiée par la requête de déploiement. 
+- Types de ressources non autorisés (Refuser) : Empêche une liste de types de ressources d’être déployés. 
+
+Pour implémenter ces définitions de stratégie (définitions intégrées et personnalisées), vous devez les affecter. Vous pouvez affecter l’une de ces stratégies par le biais du portail Azure, de PowerShell ou d’Azure CLI. Voici un tutoriel pour commencer: https://docs.microsoft.com/fr-fr/azure/governance/policy/tutorials/create-and-manage#implement-a-new-custom-policy 
+
 ## briefs apprenants
 
 - [installer l'environnement azure pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init.git)
