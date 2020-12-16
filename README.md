@@ -7,6 +7,8 @@ Superviser la gestion des coûts de sa promotion dans le cadre de la préparatio
 La documentation pour ce projet se trouve [ici](https://github.com/jtobelem-simplon/dp100-brief-init/blob/master/doc/dp100.pdf?raw=true).
 
 
+# Suivi d'un groupe sur Azure
+
 ## Configuration des utilisateurs
 - une souscription dont le nom est celui de la promotion : ecole-ia-XXX
 - un groupe (dans azure active directory) qui contient les membres (rôle:utilisateur) de la promo : ecole-ia-XXX-pXX (le numéro de promo)
@@ -46,13 +48,19 @@ for ws_name in Workspace.list(subscription_id, resource_group=resource_group):
             compute.stop(show_output=True)
 ```
 
-## Identification des éléments qui pesent le plus sur le coût total
+## Journal d'activité
 - afficher le journal d'activité de la souscription
 ![activity azure](img/azure-activity.png)
 
 - télécharger au format csv pour identifier les ressources les plus utilisées
 ![activity](img/activity.png)
 
+## Azure Automation 
+
+A ce lien (https://samcogan.com/enforce-bugets-with-azure-automation/ ) vous trouverez un article qui explique comment vous pouvez utiliser Azure Automation Runbook pour arrêter les VM quand vous atteignez un certain budget. Pour plus de détails sur comment créer et gérer des runbooks, voir les liens suivants: 
+
+- https://docs.microsoft.com/fr-fr/azure/automation/automation-quickstart-create-runbook 
+- https://docs.microsoft.com/fr-fr/azure/automation/manage-runbooks 
 
 ## Gestion des policies
 
@@ -69,8 +77,20 @@ Dans Azure Policy, nous proposons plusieurs stratégies intégrées qui sont dis
 
 Pour implémenter ces définitions de stratégie (définitions intégrées et personnalisées), vous devez les affecter. Vous pouvez affecter l’une de ces stratégies par le biais du portail Azure, de PowerShell ou d’Azure CLI. Voici un tutoriel pour commencer: https://docs.microsoft.com/fr-fr/azure/governance/policy/tutorials/create-and-manage#implement-a-new-custom-policy 
 
+# Ressources
+
 ## briefs apprenants
 
 - [installer l'environnement azure pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init.git)
 - [installer l'environnement local pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init-expert.git)
 - [cadre pour transposer les exercices du parcours d'apprentissage MS sur l'exemple du titanic](https://github.com/jtobelem-simplon/dp100-brief-titanic.git)
+
+## parcours microsoft
+
+- [Créer des solutions d’IA avec Azure Machine Learning](https://docs.microsoft.com/fr-fr/learn/paths/build-ai-solutions-with-azure-ml-service/)
+- [Créer des modèles Machine Learning](https://docs.microsoft.com/fr-fr/learn/paths/create-machine-learn-models/)
+
+## repo. microsoft
+
+- [mslearn-aml-labs](https://github.com/MicrosoftLearning/mslearn-dp100.git)
+- [ml-basics](https://github.com/microsoftdocs/ml-basics)

@@ -6,3 +6,6 @@
 # sol/
 
 *.log
+
+.ipynb_checkpoints/
+config.json
