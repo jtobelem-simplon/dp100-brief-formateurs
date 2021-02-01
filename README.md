@@ -92,5 +92,6 @@ Pour implémenter ces définitions de stratégie (définitions intégrées et pe
 
 ## repo. microsoft
 
-- [mslearn-aml-labs](https://github.com/MicrosoftLearning/mslearn-dp100.git)
+- [mslearn-aml-labs](https://github.com/MicrosoftLearning/mslearn-dp100)
 - [ml-basics](https://github.com/microsoftdocs/ml-basics)
+ 
