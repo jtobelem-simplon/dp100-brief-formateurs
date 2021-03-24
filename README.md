@@ -4,7 +4,17 @@
 
 Superviser la gestion des coûts de sa promotion dans le cadre de la préparation à la dp100.
 
-La documentation pour ce projet se trouve [ici](https://github.com/jtobelem-simplon/dp100-brief-init/blob/master/doc/dp100.pdf?raw=true).
+## briefs apprenants
+
+Les présentations pour les apprenants pour la dp100 sont ici :
+- [dp100 - partie 1](doc/DP100%20-%20partie1.pdf)
+- [dp100 - partie 2](doc/DP100%20-%20partie2.pdf)
+- [exemple de restitution]
+
+- [installer l'environnement azure pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init.git)
+- [installer l'environnement local pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init-expert.git)
+- [cadre pour transposer les exercices du parcours d'apprentissage MS sur l'exemple du titanic](https://github.com/jtobelem-simplon/dp100-brief-titanic.git)
+
 
 
 # Suivi d'un groupe sur Azure
@@ -78,12 +88,6 @@ Dans Azure Policy, nous proposons plusieurs stratégies intégrées qui sont dis
 Pour implémenter ces définitions de stratégie (définitions intégrées et personnalisées), vous devez les affecter. Vous pouvez affecter l’une de ces stratégies par le biais du portail Azure, de PowerShell ou d’Azure CLI. Voici un tutoriel pour commencer: https://docs.microsoft.com/fr-fr/azure/governance/policy/tutorials/create-and-manage#implement-a-new-custom-policy 
 
 # Ressources
-
-## briefs apprenants
-
-- [installer l'environnement azure pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init.git)
-- [installer l'environnement local pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init-expert.git)
-- [cadre pour transposer les exercices du parcours d'apprentissage MS sur l'exemple du titanic](https://github.com/jtobelem-simplon/dp100-brief-titanic.git)
 
 ## parcours microsoft
 
