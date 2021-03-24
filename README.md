@@ -9,7 +9,7 @@ Superviser la gestion des coûts de sa promotion dans le cadre de la préparatio
 Les présentations pour les apprenants pour la dp100 sont ici :
 - [dp100 - partie 1](doc/DP100%20-%20partie1.pdf)
 - [dp100 - partie 2](doc/DP100%20-%20partie2.pdf)
-- [exemple de restitution]
+- [exemple de restitution](doc/DP100%20-%20Synthèse%20modules%201-4%20_%20base.pdf)
 
 - [installer l'environnement azure pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init.git)
 - [installer l'environnement local pour suivre le parcours d'apprentissage MS](https://github.com/jtobelem-simplon/dp100-brief-init-expert.git)
